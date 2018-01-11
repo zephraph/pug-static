@@ -1,0 +1,21 @@
+{
+  "name": "pug-static",
+  "version": "1.0.0",
+  "description": "A bundled version of pug specificially built to be easier to include in codesandbox",
+  "main": "index.js",
+  "repository": "https://github.com/zephraph/pug-static",
+  "author": "Zephraph <zephraph@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "pug": "^2.0.0-rc.4",
+    "rollup": "^0.53.4",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-uglify": "^2.0.1",
+    "uglify-es": "^3.3.5"
+  }
+}
